@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+}
+
+.banner-image {
+  background-image: url(../../assets/background-image.jpg);
+  background-size: cover;
+  width: 500px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  font-weight: 500px;
+  color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffb606;
+}
+
+
