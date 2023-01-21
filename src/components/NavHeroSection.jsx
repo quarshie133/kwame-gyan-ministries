@@ -51,12 +51,12 @@ function NavHeroSection() {
                 </a>
               </li>
             </ul>
-            {/* <a href="#" className="nav-link">
+          </div>
+            {/* <a href="#" className="btn">
               <button type="button" className="btn btn-warning">
                 Donate
               </button>
             </a> */}
-          </div>
         </div>
       </nav>
       <div className="banner-image w-100 vh-100 d-flex justify-content-center">
