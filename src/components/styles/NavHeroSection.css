@@ -14,8 +14,11 @@
 }
 
 .banner-image {
-  background-image: url(../../assets/background-image.jpg);
+  background-image: url("../../assets/background-image.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
   width: 500px;
 }
 

@@ -1,10 +1,12 @@
 import './App.css';
-import NavHeroSection from './components/NavHeroSection';
+import MainSection from './components/pages/MainSection';
+import NavHeroSection from './components/pages/NavHeroSection';
 
 function App() {
   return (
     <div className="App">
       <NavHeroSection />
+      <MainSection />
     </div>
   );
 }
