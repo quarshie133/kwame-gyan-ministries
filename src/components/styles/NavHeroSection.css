@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Merriweather", serif;
+}
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --yellow-colr: #ffb606;
 }
 
 .banner-image {
@@ -15,23 +22,35 @@
 .navbar-nav .nav-item .nav-link {
   font-size: 20px;
   font-weight: 500px;
-  color: #fff;
+  color: var(--white-color);
 }
 
 .navbar-nav .nav-item .nav-link:focus,
 .navbar-nav .nav-item .nav-link:hover {
-  color: #ffb606;
+  color: var(--yellow-colr);
 }
 
-button.btn-donate {
+.btn-donate {
+  width: 170px;
+  height: 47px;
+  background: var(--yellow-colr);
   font-size: 16px;
   text-transform: uppercase;
-  font-family: "Merriweather, serif";
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-weight: bold;
-  color: #ffb606;
-  padding: 15px 32px;
+  padding: 15px 15px;
   border: none;
   text-decoration: none;
   display: inline-block;
+  margin-top: -25px;
 }
+
+
+.btn-donate:hover  {
+   background: none;
+   border: 1px solid var(--white-color);
+   color: var(--white-color);
+   transition: 1s;
+}
+
