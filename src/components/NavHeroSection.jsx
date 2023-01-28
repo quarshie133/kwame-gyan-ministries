@@ -3,7 +3,6 @@ import "../components/styles/NavHeroSection.css";
 import logo from "../assets/logo.svg";
 
 function NavHeroSection() {
-  
   return (
     <div className="body">
       <nav className="navbar fixed-top navbar-expand-md navbar-dark p-md-3">
@@ -52,15 +51,27 @@ function NavHeroSection() {
               </li>
             </ul>
             <a href="#" className="btn">
-              <button className="btn-donate">
-                donate
-              </button>
+        <button className="btn-donate">donate</button>
             </a>
           </div>
         </div>
       </nav>
       <div className="banner-image w-100 vh-100 d-flex justify-content-center">
-
+        <div className="txt-content">
+          <p>
+            Let Jesus
+            <span className="txt-content-one">
+              Be <span className="txt-yellow">revealed</span> in <span className="txt-yellow">You</span>
+            </span>
+          <h1 className="txt-title">
+            kwame <span className="txt-content-two">gyan ministries</span>
+          </h1>
+          </p>
+          <div className="btn-content">
+            <button className="btn-aboutus">about us</button>
+            <button className="btn-projects">projects</button>
+          </div>
+        </div>
       </div>
     </div>
   );
