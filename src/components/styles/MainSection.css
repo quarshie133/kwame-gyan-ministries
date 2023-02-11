@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 
-.banner-image {
-  background-image: url("../../assets/main.svg");
+.main-section {
+  background-image: url("../../assets/mainbackground.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
-  width: 500px;
 }
