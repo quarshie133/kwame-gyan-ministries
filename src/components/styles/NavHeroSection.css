@@ -19,7 +19,9 @@
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
-  width: 500px;
+   /* width: 500px; */
+   /* background-attachment: fixed; */
+   height: 100vh;
 }
 
 .navbar-nav .nav-item .nav-link {
