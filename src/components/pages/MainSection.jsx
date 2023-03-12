@@ -23,11 +23,13 @@ function MainSection() {
               </p>
               <button className="btn-read-more">Read more</button>
             </div>
-          </div>
+      <div class="grp_pics">
+        <img src={group1} className="grp_1" />
+        <img src={group2} className="grp_2" />
         </div>
+          </div>
       </div>
-            <img src={group1} className="grp_1"/>
-            <img src={group2} className="grp_2"/>
+      </div>
     </div>
   );
 }

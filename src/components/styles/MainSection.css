@@ -86,7 +86,6 @@ height: 503.11px; */
   display: inline-block;
   margin-top: 8%;
   margin-left: 60%;
-
 }
 
 .btn-read-more:hover {
@@ -94,4 +93,26 @@ height: 503.11px; */
   border: 1px solid var(--black-color);
   color: var(--black-color);
   transition: 1s;
+}
+.grp_1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.grp_1 {
+  left: 20%;
+  top: 117%;
+  position: absolute;
+  margin-top: -3px;
+  margin-left: -150px;
+  z-index: 1;
+}
+
+.grp_2 {
+  position: absolute;
+  top: 170%;
+  left: 100px;
+  border: 1px solid #000000;
+  z-index: 2;
 }
