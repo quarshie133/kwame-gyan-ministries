@@ -50,11 +50,9 @@ height: 503.11px; */
 
 .underline {
   position: absolute;
-  left: 69%;
-  /* left: 880px; */
+  left: 63.3%;
   margin-top: -31px;
   margin-left: 58px;
-
   width: 101.16px;
   height: 6.27px;
   background: var(--yellow-color);
@@ -62,8 +60,6 @@ height: 503.11px; */
 }
 
 .txt-center {
-  /* width: 90%;
-  height: 65%; */
   width: 375.09px;
   height: 275px;
   font-size: 21px;
