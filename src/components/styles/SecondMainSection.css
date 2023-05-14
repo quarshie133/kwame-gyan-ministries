@@ -34,17 +34,12 @@
   text-transform: capitalize;
   text-align: center;
   color: var(--white-color);
-  /* margin-top: 20px; */
 }
 
-h2 {
-  /* margin-top: 20px; */
-}
-
-.audio_line {
-  text-align: center;
+div.audio_line {
   width: 101.16px;
   height: 6.27px;
   background: var(--yellow-color);
   border-radius: 5px;
+  margin-left: 46.3%;
 }
