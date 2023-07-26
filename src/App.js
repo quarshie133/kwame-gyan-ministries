@@ -1,15 +1,14 @@
-import './App.css';
-import MainSection from './components/pages/MainSection';
-import NavHeroSection from './components/pages/NavHeroSection';
-import SecondMainSection from './components/pages/SecondMainSection';
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Nav from "./components/nav/Nav";
+import Mandate from "./components/mandate/Mandate";
+import Music from "./components/music/Music";
 
 function App() {
   return (
-    <div className="App">
-      <NavHeroSection />
-      <MainSection />
-      <SecondMainSection />
+    <div>
+      <Nav />
+  
     </div>
   );
 }

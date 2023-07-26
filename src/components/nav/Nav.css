@@ -1,0 +1,233 @@
+/* BANNER SECTION FOR NAVIGATION */
+
+.banner-image {
+  background-image: url("../../assets/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.navbar-nav li a {
+  color: var(--white-color);
+}
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+}
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--yellow-color);
+}
+
+.navbar-nav > li {
+  padding-left: 7px;
+  padding-right: 1px;
+}
+
+.logo {
+  margin-left: 4.4rem;
+}
+
+
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 130px;
+    margin-left: 0;
+  }
+}
+/*============= MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 125px;
+    margin-left: 0;
+  }
+}
+
+/* HEADER SECTION FOR (LET JESUS BE REVEALED) */
+
+
+
+.head {
+  margin: 12rem auto;
+  margin-left: 7.5rem;
+  margin-top: 17rem;
+}
+
+.header__conatainer,
+.header__title {
+  color: var(--white-color);
+}
+
+.header__conatainer h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+.header__title h1 {
+  font-family: "Merriweather", serif;
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+
+.txt-yellow {
+  color: var(--yellow-color);
+}
+
+
+/*  END */
+
+
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+}
+/*============= MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+
+
+.head {
+  margin-left: 0;
+  margin-top: 10rem;
+}
+
+  .header__conatainer {
+    margin-top: 4rem;
+  }
+  .header__conatainer h5 {
+    text-align: center;
+  }
+
+  .header__title h1 {
+    text-align: center;
+    font-size: 3.2rem;
+  }
+
+  .btn-aboutus,
+  .btn-projects {
+    display: grid;
+    flex-direction: column;
+    margin-left: 6.8rem;
+    margin-right: 6.8rem;
+  }
+}
+
+
+/* 
+.banner-image {
+  background-image: url("../../assets/background-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+  width: 500px;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  font-weight: 500px;
+  color: var(--white-color);
+}
+
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--yellow-color);
+}
+
+.txt-content {
+  color: var(--white-color);
+  position: absolute;
+  margin-top: 270px;
+  margin-right: 29%;
+}
+
+.txt-content-one::before {
+  content: "\a";
+  white-space: pre;
+}
+
+.txt-content-two::before {
+  content: "\a";
+  white-space: pre;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.txt-yellow {
+  color: var(--yellow-color);
+}
+
+.txt-title {
+  font-family: "Merriweather", serif;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-aboutus {
+  width: 170px;
+  height: 47px;
+  background: var(--yellow-color);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 15px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.btn-aboutus:hover {
+  background: none;
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+  transition: 1s;
+}
+
+.btn-projects {
+  width: 170px;
+  height: 47px;
+  background: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 15px;
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-projects:hover {
+  background: var(--yellow-color);
+  border: 1px solid var(--white-color);
+  color: var(--black-color);
+  transition: 1s;
+} */
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+/* @media screen and (max-width: 1024px) {
+  .banner-image {
+    width: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+  }
+  .navbar-brand {
+    margin-right: 40%;
+  }
+} */
+/*============= MEDIA QUERIES (SMALL DEVICES) =========== */
+/* @media screen and (max-width: 600px) { */

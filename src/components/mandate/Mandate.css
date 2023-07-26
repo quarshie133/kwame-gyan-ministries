@@ -1,42 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Merriweather", serif;
-}
 
-:root {
-  --white-color: #fff;
-  --black-color: #000;
-  --yellow-color: #ffb606;
-}
-
-.img-container {
+/* .img-container {
   height: 700px;
   width: 100%;
   background-image: url("../../assets/mainbackground.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-.text-drop {
-  width: 580px;
-  height: 500px;
-  /* width: 671.41px;
+/* .text-drop { */
+/* width: 580px; */
+/* height: 500px; */
+/* width: 671.41px;
 height: 503.11px; */
-  background: #ffffff;
+/* background: #ffffff;
   box-shadow: 0px 3.58086px 3.58086px rgba(255, 255, 255, 0.25),
     0px 3.58086px 3.58086px rgba(0, 0, 0, 0.8);
   margin-top: 140px;
   margin-left: 43%;
   margin-right: 40%;
   position: relative;
-  z-index: 3;
-}
+  z-index: 3; */
+/* } */
 
-.text-drop h3 {
+/* .text-drop h3 {
   font-family: "Merriweather", serif;
   font-weight: 700;
   font-size: 36px;
@@ -112,4 +99,11 @@ height: 503.11px; */
   top: 159%;
   left: 170px;
   z-index: 2;
+} */
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+}
+/*============= MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
 }
