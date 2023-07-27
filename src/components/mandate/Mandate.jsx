@@ -5,23 +5,30 @@ import group2 from "../../assets/group2.png";
 
 function Main() {
   return (
-    <header>
-      <div className="header__conatainer">
-        <h5>Let Jesus</h5>
-        <h5>
-          Be <span className="txt-yellow">revealed</span> in
-          <span className="txt-yellow">YOU</span>
-        </h5>
+    <section className="main-bg w-100 vh-100 d-flex">
+      <div className="wrapper">
+        <div className="pics">
+          <img src={group1} />
+          <img src={group2} />
+        </div>
+        <div className="bg-text">
+          <div className="bg-grid-txt">
+            <h3 className="title-txt">Mandate</h3>
+            <div className="underline"></div>
+          </div>
+          <div className="bg-grid-txt">
+            <p className="mandate-txt">
+              Our mandate is through music we are to bring individuals whose
+              hearts are distant from God back to Him, and to reignite the love
+              of Jesus Christ in the hearts of many, particularly young people
+              in partnership with the Holyspirit. Through the power of music, we
+              strive to manifest the healing power of God and bring hope and
+              salvation to all who seek it.
+            </p>
+          </div>
+        </div>
       </div>
-      <div className="header__title">
-        <h1>KWAME</h1>
-        <h1>GYAN MINISTRIES</h1>
-      </div>
-      <div className="btn-content">
-        <button className="btn-aboutus">ABOUT US</button>
-        <button className="btn-projects">PROJECTS</button>
-      </div>
-    </header>
+    </section>
   );
 }
 

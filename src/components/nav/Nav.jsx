@@ -54,7 +54,7 @@ function Nav() {
           </ul>
         </div>
       </div>
-      <div className="head">
+      <header>
         <div className="header__conatainer">
           <h5>Let Jesus</h5>
           <h5>
@@ -70,7 +70,7 @@ function Nav() {
           <button className="btn-aboutus">ABOUT US</button>
           <button className="btn-projects">PROJECTS</button>
         </div>
-      </div>
+      </header>
     </div>
   );
 }

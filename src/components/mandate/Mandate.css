@@ -1,3 +1,47 @@
+/* MANDATE SECTION */
+section {
+  background-image: url("../../assets/mainbackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 4.5rem;
+}
+
+
+
+/*  Mandate Text-styling */
+
+.bg-text {
+  width: 35.7rem;
+  height: 26.5rem;
+  background: var(--white-color);
+}
+
+.bg-grid-txt {
+  display: flex;
+  width: 20rem;
+  margin-top: 2rem;
+  margin-left: 14rem;
+  
+}
+
+.title-txt {
+   margin-left: 10.6rem;
+}
+
+
+
+
+
+
+
+
+
 
 /* .img-container {
   height: 700px;
