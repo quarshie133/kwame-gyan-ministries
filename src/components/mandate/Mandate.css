@@ -9,145 +9,248 @@ section {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 4.5rem;
+  margin-top: 3.5rem;
 }
 
+/*  Mandate Image-styling */
 
+.pics {
+  margin-left: 26.3%;
+  /* position: relative; */
+}
+
+.img-1 {
+  width: 35.4rem;
+}
+
+.img-1 {
+  position: relative;
+  z-index: 2;
+}
+
+.img-2 {
+  margin-top: -4.5rem;
+  margin-left: 3.3rem;
+  z-index: 3;
+}
 
 /*  Mandate Text-styling */
 
 .bg-text {
-  width: 35.7rem;
-  height: 26.5rem;
+  width: 30.7rem;
+  height: 29.4rem;
   background: var(--white-color);
 }
 
 .bg-grid-txt {
   display: flex;
   width: 20rem;
-  margin-top: 2rem;
-  margin-left: 14rem;
-  
+  margin-top: 1.2rem;
+  margin-left: 7rem;
 }
 
-.title-txt {
-   margin-left: 10.6rem;
-}
-
-
-
-
-
-
-
-
-
-
-/* .img-container {
-  height: 700px;
-  width: 100%;
-  background-image: url("../../assets/mainbackground.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* .text-drop { */
-/* width: 580px; */
-/* height: 500px; */
-/* width: 671.41px;
-height: 503.11px; */
-/* background: #ffffff;
-  box-shadow: 0px 3.58086px 3.58086px rgba(255, 255, 255, 0.25),
-    0px 3.58086px 3.58086px rgba(0, 0, 0, 0.8);
-  margin-top: 140px;
-  margin-left: 43%;
-  margin-right: 40%;
-  position: relative;
-  z-index: 3; */
-/* } */
-
-/* .text-drop h3 {
-  font-family: "Merriweather", serif;
+h3.title-txt {
+  margin-left: 10.6rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  font-size: 36px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  margin-bottom: 30px;
-  margin-right: 47px;
-  margin-top: -31px;
 }
 
 .underline {
+  width: 6.3rem;
+  height: 0.3rem;
+  border-radius: 5px solid var(--yellow-color);
+  background: var(--yellow-color);
   position: absolute;
-  left: 63.3%;
-  margin-top: -31px;
-  margin-left: 58px;
-  width: 101.16px;
-  height: 6.27px;
-  background: var(--yellow-color);
-  border-radius: 5px;
+  margin-left: 13rem;
+  margin-top: 2.7rem;
 }
 
-.txt-center {
-  width: 375.09px;
-  height: 275px;
-  font-size: 21px;
+p.mandate-txt {
+  width: 20rem;
+  height: 15rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
   text-align: justify;
-  text-justify: inter-word;
-  line-height: 33px;
-  margin-left: 159px;
 }
 
-.btn-read-more {
-  width: 170px;
-  height: 47px;
+.btn-read {
+  width: 120px;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding: 6px 6px;
   background: var(--yellow-color);
-  font-size: 16px;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-weight: bold;
-  padding: 15px 15px;
-  border: none;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 8%;
-  margin-left: 60%;
+  color: var(--black--color);
+  border: 1px solid var(--white-color);
+  margin-left: 19.4rem;
+  margin-top: 4rem;
 }
 
-.btn-read-more:hover {
+.btn-read:hover {
   background: none;
   border: 1px solid var(--black-color);
   color: var(--black-color);
-  transition: 1s;
-}
-.grp_1 {
-  position: relative;
-  top: 0;
-  left: 0;
 }
 
-.grp_1 {
-  left: 20%;
-  top: 117%;
-  position: absolute;
-  margin-top: -3px;
-  margin-left: -150px;
-  z-index: 3;
-}
 
-.grp_2 {
-  position: absolute;
-  top: 159%;
-  left: 170px;
-  z-index: 2;
-} */
 
 /*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
+
+
+  /*  Mandate Image-styling */
+
+  .pics {
+    margin-left: 17.3%;
+  }
+
+  .img-1 {
+    width: 27.4rem;
+  }
+
+  .img-1 {
+    position: relative;
+    z-index: 2;
+  }
+
+  .img-2 {
+    width: 23.4rem;
+  }
+
+  .img-2 {
+    margin-top: -3.4rem;
+    margin-left: 3.6rem;
+    z-index: 3;
+  }
+
+  /*  Mandate Text-styling */
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3.5rem;
+  }
+
+  h3.title-txt {
+    margin-left: 13.4rem;
+    font-size: 1.5rem;
+  }
+
+  .underline {
+    width: 4.3rem;
+    height: 0.2rem;
+    margin-left: 15rem;
+    margin-top: 1.9rem;
+  }
+
+  .bg-grid-txt {
+    display: flex;
+    width: 20rem;
+    margin-top: 1.2rem;
+    margin-left: 4rem;
+  }
+
+  .bg-text {
+    width: 26rem;
+    height: 21.4rem;
+  }
+
+  p.mandate-txt {
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+
+  }
+
+  .btn-read {
+    width: 110px;
+    font-size: 1em;
+    padding: 4px 4px;
+    margin-left: 17.3rem;
+    margin-top: -2rem;
+    position: absolute;
+  }
 }
+
+
+
 /*============= MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
+  /*  Mandate Text-styling */
+
+  .wrapper {
+    position: absolute;
+    display: flex;
+    margin-top: 1.9rem;
+  }
+
+  h3.title-txt {
+    margin-left: 13.4rem;
+    font-size: 1.5rem;
+  }
+
+  .underline {
+    width: 4.3rem;
+    height: 0.2rem;
+    margin-left: 14.8rem;
+    margin-top: 1.9rem;
+  }
+
+  .bg-grid-txt {
+    display: flex;
+    width: 20rem;
+    margin-top: 1.2rem;
+    margin-left: 1.3rem;
+  }
+
+  .bg-text {
+    width: 23rem;
+    height: 20.4rem;
+    margin-left: 3rem;
+  }
+
+  p.mandate-txt {
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+  }
+
+  .btn-read {
+    width: 110px;
+    font-size: 0.9em;
+    padding: 4px 4px;
+    margin-left: 14.2rem;
+    margin-top: -3rem;
+  }
+
+
+
+
+
+
+  /*  Mandate Image-styling */
+
+  .pics {
+    margin-left: 2rem;
+    margin-top: 21.4rem;
+    position: absolute;
+    flex-direction: column;
+  }
+
+  .img-1 {
+    width: 16.4rem;
+  }
+
+  .img-1 {
+    position: relative;
+    z-index: 2;
+  }
+
+  .img-2 {
+    width: 15.4rem;
+  }
+
+  .img-2 {
+    margin-left: 12.6rem;
+    z-index: 3;
+  }
 }

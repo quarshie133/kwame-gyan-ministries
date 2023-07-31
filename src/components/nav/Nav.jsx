@@ -58,8 +58,7 @@ function Nav() {
         <div className="header__conatainer">
           <h5>Let Jesus</h5>
           <h5>
-            Be <span className="txt-yellow">revealed</span> in
-            <span className="txt-yellow">YOU</span>
+            Be <span className="txt-yellow">revealed</span>  in <span className="txt-yellow">You</span>
           </h5>
         </div>
         <div className="header__title">
@@ -76,55 +75,3 @@ function Nav() {
 }
 
 export default Nav;
-
-// <div className="banner-image w-100 vh-100 d-flex justify-content-center"></div>
-
-//  <section className="navbar fixed-top navbar-expand-md p-md-3">
-//    <a href="#" className="navbar-brand">
-//      <img src={logo} className="logo" />
-//    </a>
-//    <button
-//      className="navbar-toggler"
-//      type="button"
-//      data-toggle="collapse"
-//      data-target="#navbarNav"
-//      aria-controls="navbarNav"
-//      aria-expanded="false"
-//      aria-label="Toggle navigation"
-//    >
-//      <span class="navbar-toggler-icon"></span>
-//    </button>
-//    <div className="collapse navbar-collapse" id="navbarNav">
-//      <ul className="navbar-nav ml-auto">
-//        <li className="nav-item active">
-//          <a className="nav-link" href="#">
-//            Home
-//          </a>
-//        </li>
-//        <li className="nav-item">
-//          <a className="nav-link" href="#">
-//            About
-//          </a>
-//        </li>
-//        <li className="nav-item">
-//          <a className="nav-link" href="#">
-//            Music
-//          </a>
-//        </li>
-//        <li className="nav-item">
-//          <a className="nav-link" href="#">
-//            Projects
-//          </a>
-//        </li>
-//        <li className="nav-item">
-//          <a className="nav-link" href="#">
-//            Gallery
-//          </a>
-//        </li>
-//        <a href="#" className="btn">
-//          <button className="btn-donate ">DONATE</button>
-//        </a>
-//      </ul>
-//    </div>
-
-//  </section>;
