@@ -9,7 +9,7 @@ function App() {
     <div>
       <Nav />
       <Mandate />
-      <Music />
+      {/* <Music /> */}
   
     </div>
   );
