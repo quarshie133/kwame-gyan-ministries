@@ -176,9 +176,9 @@ p.mandate-txt {
 /*============= MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
   /*  Mandate Text-styling */
-.bg-text {
-  display: none;
-}
+  .bg-text {
+    display: none;
+  }
 
   /*  Mandate Image-styling */
 
@@ -199,30 +199,18 @@ p.mandate-txt {
   }
 
   .img-2 {
+    margin-left: 2.2rem;
     width: 15.4rem;
   }
 
   .img-2 {
-    margin-left: 3.2rem;
+    margin-left: 2.2rem;
     z-index: 3;
   }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* 
-
-
   .wrapper {
     grid-template-columns: 1fr;
     margin-top: 1.9rem;
