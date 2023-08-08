@@ -103,11 +103,12 @@ p.mandate-txt {
   /*  Mandate Image-styling */
 
   .pics {
-    margin-left: 17.3%;
+    margin-left: 14.3%;
   }
 
   .img-1 {
-    width: 27.4rem;
+    width: 23.4rem;
+    margin-left: 14.3%;
   }
 
   .img-1 {
@@ -116,12 +117,12 @@ p.mandate-txt {
   }
 
   .img-2 {
-    width: 23.4rem;
+    width: 20.4rem;
   }
 
   .img-2 {
     margin-top: -3.4rem;
-    margin-left: 3.6rem;
+    margin-left: 1.2rem;
     z-index: 3;
   }
 
@@ -130,7 +131,7 @@ p.mandate-txt {
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 3.5rem;
+    margin-top: 1.9rem;
   }
 
   h3.title-txt {
@@ -149,11 +150,11 @@ p.mandate-txt {
     display: flex;
     width: 20rem;
     margin-top: 1.2rem;
-    margin-left: 4rem;
+    margin-left: 7rem;
   }
 
   .bg-text {
-    width: 26rem;
+    width: 29rem;
     height: 21.4rem;
   }
 
@@ -163,11 +164,11 @@ p.mandate-txt {
   }
 
   .btn-read {
-    width: 110px;
+    width: 7rem;
     font-size: 1em;
-    padding: 4px 4px;
-    margin-left: 17.3rem;
-    margin-top: -2rem;
+    padding: 5px 3px;
+    margin-left: 20.2rem;
+    margin-top: -2.6rem;
     position: absolute;
   }
 }
