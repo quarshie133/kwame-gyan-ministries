@@ -5,7 +5,7 @@ import Mandate from "../mandate/Mandate";
 
 function Nav() {
   return (
-    <div className="banner-image w-100 vh-100 d-flex justify-content-center">
+    <div className="banner-image w-100 d-flex justify-content-center">
       <div className="navbar fixed-top navbar-expand-md p-md-3">
         <a href="" className="navbar-brand">
           <img src={logo} className="logo" />
@@ -58,7 +58,8 @@ function Nav() {
         <div className="header__conatainer">
           <h5>Let Jesus</h5>
           <h5>
-            Be <span className="txt-yellow">revealed</span>  in <span className="txt-yellow">You</span>
+            Be <span className="txt-yellow">revealed</span> in{" "}
+            <span className="txt-yellow">You</span>
           </h5>
         </div>
         <div className="header__title">

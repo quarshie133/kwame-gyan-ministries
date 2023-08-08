@@ -3,13 +3,13 @@ import "../mandate/Mandate.css";
 import group1 from "../../assets/group1.png";
 import group2 from "../../assets/group2.png";
 
-function Main() {
+function Mandate() {
   return (
-    <section className="main-bg w-100 vh-100 d-flex">
+    <section className="main-bg w-100 d-flex">
       <div className="wrapper">
         <div className="pics">
-          <img src={group1} className="img-1"/>
-          <img src={group2} className="img-2"/>
+          <img src={group1} className="img-1" />
+          <img src={group2} className="img-2" />
         </div>
         <div className="bg-text">
           <div className="bg-grid-txt">
@@ -26,11 +26,11 @@ function Main() {
               salvation to all who seek it.
             </p>
           </div>
-              <button className="btn-read">READ MORE</button>
+          <button className="btn-read">READ MORE</button>
         </div>
       </div>
     </section>
   );
 }
 
-export default Main;
+export default Mandate;

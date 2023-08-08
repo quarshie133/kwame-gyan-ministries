@@ -1,1 +1,12 @@
+section.dark-bg {
+  background: var(--dark-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+}
 
+.music__bg {
+  width: 1193px;
+  height: 254px;
+}

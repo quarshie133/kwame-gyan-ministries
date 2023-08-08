@@ -10,35 +10,40 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 3.5rem;
+  margin-right: 16rem;
 }
 
 /*  Mandate Image-styling */
 
 .pics {
-  margin-left: 26.3%;
+  margin-left: 30.3%;
   /* position: relative; */
 }
 
 .img-1 {
-  width: 35.4rem;
+  /* width: 35.4rem; */
 }
 
 .img-1 {
+  margin-left: 12%;
   position: relative;
   z-index: 2;
 }
 
 .img-2 {
   margin-top: -4.5rem;
-  margin-left: 3.3rem;
-  z-index: 3;
+  /* margin-right: 19rem; */
+  margin-right: 20%;
+  /* z-index: 3; */
 }
 
 /*  Mandate Text-styling */
 
 .bg-text {
-  width: 30.7rem;
-  height: 29.4rem;
+  /* width: 30.7rem; */
+  width: 40.96rem;
+  height: 31.444rem;
+  /* height: 29.4rem; */
   background: var(--white-color);
 }
 
@@ -46,7 +51,7 @@ section {
   display: flex;
   width: 20rem;
   margin-top: 1.2rem;
-  margin-left: 7rem;
+  margin-left: 16.246rem;
 }
 
 h3.title-txt {
@@ -75,16 +80,16 @@ p.mandate-txt {
 }
 
 .btn-read {
-  width: 120px;
-  font-size: 1rem;
-  font-family: "Raleway", sans-serif;
+  width: 10.6rem;
+  height: 2.9rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  padding: 6px 6px;
+  padding: 10px;
   background: var(--yellow-color);
   color: var(--black--color);
   border: 1px solid var(--white-color);
-  margin-left: 19.4rem;
-  margin-top: 4rem;
+  margin-left: 25.6rem;
+  margin-top: 5rem;
 }
 
 .btn-read:hover {
@@ -93,12 +98,8 @@ p.mandate-txt {
   color: var(--black-color);
 }
 
-
-
 /*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
-
-
   /*  Mandate Image-styling */
 
   .pics {
@@ -159,7 +160,6 @@ p.mandate-txt {
   p.mandate-txt {
     font-family: "Raleway", sans-serif;
     font-size: 1em;
-
   }
 
   .btn-read {
@@ -171,8 +171,6 @@ p.mandate-txt {
     position: absolute;
   }
 }
-
-
 
 /*============= MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
@@ -221,11 +219,6 @@ p.mandate-txt {
     margin-left: 14.2rem;
     margin-top: -3rem;
   }
-
-
-
-
-
 
   /*  Mandate Image-styling */
 

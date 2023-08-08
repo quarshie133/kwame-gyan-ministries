@@ -9,6 +9,7 @@ function App() {
     <div>
       <Nav />
       <Mandate />
+      <Music />
   
     </div>
   );
