@@ -183,32 +183,26 @@ p.mandate-txt {
   /*  Mandate Image-styling */
 
   .pics {
-    margin-left: 1rem;
-    /* margin-top: 21.4rem; */
+    margin-left: 2rem;
+    margin-top: 1.4rem;
     /* position: absolute; */
     flex-direction: column;
   }
 
   .img-1 {
-    width: 16.4rem;
-  }
-
-  .img-1 {
+    margin-left: 1rem;
     position: relative;
     z-index: 2;
+    width: 17.4rem;
   }
 
   .img-2 {
     margin-left: 2.2rem;
+    margin-top: 1rem;
     width: 15.4rem;
-  }
-
-  .img-2 {
-    margin-left: 2.2rem;
     z-index: 3;
   }
 }
-
 
 /* 
   .wrapper {
