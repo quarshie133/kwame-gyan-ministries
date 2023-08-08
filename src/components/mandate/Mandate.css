@@ -183,7 +183,7 @@ p.mandate-txt {
   /*  Mandate Image-styling */
 
   .pics {
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: 1.4rem;
     /* position: absolute; */
     flex-direction: column;
@@ -197,7 +197,7 @@ p.mandate-txt {
   }
 
   .img-2 {
-    margin-left: 2.2rem;
+    margin-left: 2rem;
     margin-top: 1rem;
     width: 15.4rem;
     z-index: 3;
