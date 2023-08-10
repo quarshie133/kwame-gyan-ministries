@@ -3,10 +3,125 @@ section.dark-bg {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 440px;
+  /* width: 1560px; */
+  height: 30.75rem;
+}
+
+h3.txt-listen {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
+  color: var(--white-color);
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.music-line {
+  width: 4.8rem;
+  height: 0.4rem;
+  border-radius: 5px solid var(--yellow-color);
+  background: var(--yellow-color);
+  margin-left: 37.7rem;
 }
 
 .music__bg {
-  width: 1193px;
-  height: 254px;
+  width: 74.563rem;
+  height: 15.875rem;
+  margin-left: 5.3rem;
+  margin-top: 1.875rem;
+}
+
+.social__icons {
+  display: flex;
+  gap: 0.8rem;
+  margin-left: 35rem;
+  margin-top: 24.5rem;
+  position: absolute;
+}
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+  section.dark-bg {
+    height: 22.55rem;
+  }
+
+  /* Text  */
+  h3.txt-listen {
+    font-size: 1.9rem;
+  }
+
+  .music-line {
+    width: 2.3rem;
+    height: 0.2rem;
+    margin-left: 23.9rem;
+  }
+
+  /* Music Background */
+  .music__bg {
+    width: 45.875rem;
+    height: 10.87rem;
+    margin-left: 4.5rem;
+    margin-top: 1.875rem;
+  }
+
+  .social__icons {
+    margin-left: 20rem;
+    margin-top: 18.3rem;
+  }
+
+  .audiomack {
+    width: 3.1rem;
+    height: 2.2rem;
+  }
+  .apple_music {
+    width: 1.5rem;
+    height: 2.2rem;
+  }
+  .spotify {
+    width: 2.2rem;
+    /* height: 1.2rem; */
+  }
+}
+/*============= MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+  section.dark-bg {
+    height: 15.35rem;
+  }
+
+  /* Text  */
+  h3.txt-listen {
+    font-size: 1.2rem;
+  }
+
+  .music-line {
+    width: 1.5rem;
+    height: 0.1rem;
+    margin-left: 8.1em;
+  }
+
+  /* Music Background */
+  .music__bg {
+    width: 15.87rem;
+    height: 4.87rem;
+    margin-left: 1.3rem;
+    margin-top: 1.875rem;
+  }
+
+  .social__icons {
+    margin-left: 5rem;
+    margin-top: 10.5rem;
+  }
+
+  .audiomack {
+    width: 1.8rem;
+    height: 1.1rem;
+  }
+  .apple_music {
+    width: 1.0rem;
+    height: 1.2rem;
+  }
+  .spotify {
+    width: 1.2rem;
+    /* height: 1.2rem; */
+  }
 }
