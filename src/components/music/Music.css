@@ -96,19 +96,19 @@ h3.txt-listen {
   .music-line {
     width: 1.5rem;
     height: 0.1rem;
-    margin-left: 8.1em;
+    margin-left: 10.1em;
   }
 
   /* Music Background */
   .music__bg {
-    width: 15.87rem;
+    width: 18.87rem;
     height: 4.87rem;
-    margin-left: 1.3rem;
+    margin-left: 2.5rem;
     margin-top: 1.875rem;
   }
 
   .social__icons {
-    margin-left: 5rem;
+    margin-left: 8rem;
     margin-top: 10.5rem;
   }
 
