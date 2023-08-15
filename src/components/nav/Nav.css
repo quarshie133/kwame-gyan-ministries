@@ -20,8 +20,8 @@
 }
 
 .navbar-nav > li {
-  padding-left: 7px;
-  padding-right: 1px;
+  padding-left: 6px;
+  /* padding-right: 1px; */
 }
 
 .logo {

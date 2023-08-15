@@ -184,7 +184,7 @@ h3.project_subtitle {
   .project_items {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 7.15rem;
+    margin-left: 6.15rem;
   }
 
   .pjt_one,
