@@ -85,7 +85,7 @@ h3.txt-listen {
 /*============= MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
   section.dark-bg {
-    height: 15.35rem;
+    height: 14.35rem;
   }
 
   /* Text  */
@@ -96,19 +96,19 @@ h3.txt-listen {
   .music-line {
     width: 1.5rem;
     height: 0.1rem;
-    margin-left: 10.1em;
+    margin-left: 9.3em;
   }
 
   /* Music Background */
   .music__bg {
     width: 18.87rem;
-    height: 4.87rem;
-    margin-left: 2.5rem;
+    height: 5.87rem;
+    margin-left: 1.0rem;
     margin-top: 1.875rem;
   }
 
   .social__icons {
-    margin-left: 8rem;
+    margin-left: 6.5rem;
     margin-top: 10.5rem;
   }
 
