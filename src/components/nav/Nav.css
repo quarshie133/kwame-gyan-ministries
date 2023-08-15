@@ -38,7 +38,7 @@
 /*============= MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
   .logo {
-    width: 125px;
+    width: 120px;
     margin-left: 0;
   }
 }
@@ -110,10 +110,9 @@ header {
     font-size: 3.2rem;
   }
 
-  .btn-aboutus,
-  .btn-projects {
-    width: 130px;
-    font-size: 14px;
+  .btn-projects, .btn-aboutus {
+    width: 7rem;
+    font-size: 0.8rem;
     padding: 15px 10px;
     display: grid;
     flex-direction: column;
