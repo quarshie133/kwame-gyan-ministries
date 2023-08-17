@@ -4,6 +4,7 @@ import Nav from "./components/nav/Nav";
 import Mandate from "./components/mandate/Mandate";
 import Music from "./components/music/Music";
 import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Mandate />
       <Music />
       <Projects />
+      <Contact />
     </div>
   );
 }

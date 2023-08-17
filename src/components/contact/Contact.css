@@ -1,0 +1,46 @@
+.contact-bg {
+  background-image: url("../../assets/contact.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 57.125rem;
+}
+
+.container.contact__container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12rem;
+}
+
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.contact__options a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 1.0rem;
+}
+
+.icon-1 {
+  fill: red;
+}
+
+.icon-two {
+  fill: red;
+}
+
+.icon-three {
+  color: rgb(83, 83, 240);
+}
+
+.icon-four {
+  color: var(--black-color);
+}
+
+.icon-five {
+  color: var(--white-color);
+}
