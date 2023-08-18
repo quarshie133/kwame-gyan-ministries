@@ -113,7 +113,7 @@ textarea {
 
   /* SUBTITLE - CONTACT US */
   .subtle {
-    margin-left: 2.25rem;
+    margin-left: 1.25rem;
   }
 
   .txt-subtitle {
@@ -170,8 +170,8 @@ textarea {
 
   input,
   textarea {
-    width: 22.688rem;
-    padding: 1.1rem;
+    width: 19.688rem;
+    padding: 1.0rem;
   }
 
   .btn-primary {
