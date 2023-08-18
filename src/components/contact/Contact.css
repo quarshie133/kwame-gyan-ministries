@@ -6,41 +6,187 @@
   height: 57.125rem;
 }
 
+/* SUBTITLE (.subtitle)- CONTACT US  used for controlling the main margin-left and right*/
+
+.subtle {
+  margin-left: 10.25rem;
+}
+
+.txt-subtitle {
+  font-family: "Merriweather", serif;
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 3.12rem;
+  margin-top: 3.12rem;
+  margin-right: -20.25rem;
+}
+
+.contact-line {
+  width: 6.31rem;
+  height: 0.438rem;
+  border-radius: 5px solid var(--yellow-color);
+  background: var(--yellow-color);
+  margin-left: 8.1rem;
+}
+
 .container.contact__container {
-  width: 58%;
+  width: 60%;
   display: grid;
   grid-template-columns: 30% 58%;
-  gap: 12rem;
+  gap: 24rem;
+}
+
+.container.contact__container {
+  margin-top: 10.875rem;
+  margin-left: -14.68rem;
 }
 
 .contact__options {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 .contact__options a {
   margin-top: 0.7rem;
   display: inline-block;
-  font-size: 1.0rem;
-}
-
-.icon-1 {
-  fill: red;
-}
-
-.icon-two {
-  fill: red;
-}
-
-.icon-three {
-  color: rgb(83, 83, 240);
-}
-
-.icon-four {
-  color: var(--black-color);
-}
-
-.icon-five {
+  font-size: 1rem;
+  text-decoration: none;
   color: var(--white-color);
+  margin: 0.9rem;
+}
+
+h6.contact {
+  position: absolute;
+  margin-right: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* ======================== FORM ===========================*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input,
+textarea {
+  width: 24.688rem;
+  padding: 1.5rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--white-color);
+  resize: none;
+  color: var(--white-color);
+}
+
+::placeholder {
+  color: var(--white-color);
+  opacity: 1;
+}
+
+.btn-primary {
+  width: max-content;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--black-color);
+  background-color: var(--yellow-color);
+  padding: 0.75rem 1.2rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-primary:hover {
+  background: #fbbc04;
+}
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    width: 20%;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* SUBTITLE - CONTACT US */
+  .subtle {
+    margin-left: 2.25rem;
+  }
+
+  .txt-subtitle {
+    font-weight: 500;
+    font-size: 2.02rem;
+    margin-top: 3.12rem;
+    margin-right: 12.25rem;
+  }
+
+  .contact-line {
+    width: 4.31rem;
+    height: 0.228rem;
+    border-radius: 5px solid var(--yellow-color);
+    background: var(--yellow-color);
+    margin-left: 4.3rem;
+  }
+
+  /* END */
+
+  .container.contact__container {
+    margin-top: 8.875rem;
+    margin-left: -22.68rem;
+  }
+
+  .contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .contact__options a {
+    margin-top: 0.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.7rem;
+  }
+  /*  ICONS */
+  .contact__option-icon {
+    width: 1.9rem;
+  }
+
+  /*  END */
+  h6.contact {
+    position: absolute;
+    font-size: 1rem;
+  }
+
+  /* ======================== FORM ===========================*/
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  input,
+  textarea {
+    width: 22.688rem;
+    padding: 1.1rem;
+  }
+
+  .btn-primary {
+  width: max-content;
+  display: inline-block;
+  font-size: 1.0rem;
+  font-weight: 300;
+  padding: 0.65rem 0.25rem;
+ 
+}
+
+}
+/*============= MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
 }
