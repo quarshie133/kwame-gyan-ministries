@@ -7,16 +7,39 @@ import instagram from "../../assets/instagram.png";
 import facebook from "../../assets/facebook.png";
 import tik_tok from "../../assets/tik-tok.png";
 import youtube from "../../assets/youtube.png";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_xx68iil",
+        "template_71bopwf",
+        form.current,
+        "nvxLSxyMRwaILUOHZ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
+  };
   return (
     <div className="contact-bg w-100 d-flex">
-    
-        <div className="subtle">
-          <h2 className="txt-subtitle">Contact Us</h2>
-          <div className="contact-line"></div>
-        </div>
-    
+      <div className="subtle">
+        <h2 className="txt-subtitle">Contact Us</h2>
+        <div className="contact-line"></div>
+      </div>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -70,7 +93,7 @@ function Contact() {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Name" required />
 
           <input type="email" name="message" placeholder="Email" required />
