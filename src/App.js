@@ -5,6 +5,7 @@ import Mandate from "./components/mandate/Mandate";
 import Music from "./components/music/Music";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Music />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

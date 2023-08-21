@@ -22,7 +22,7 @@ function Contact() {
         <div className="contact__options">
           <article className="contact__option">
             <img src={telephone} className="contact__option-icon icon-1" />
-            <a href="#">
+            <a href="tel:0248476820">
               <h6 className="contact"> 0501363509 / 0248476820</h6>
             </a>
           </article>
