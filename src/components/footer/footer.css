@@ -57,11 +57,11 @@ footer a:hover {
 /*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 600px) {
   .permalinks {
-    flex-direction: column;
-    gap: 1.5rem;
+    flex-direction: row;
+    gap: 1.2rem;
   }
 
   .footer__socials {
-    margin-bottom: 2.6rem;
+    /* margin-bottom: 1.2rem; */
   }
 }
