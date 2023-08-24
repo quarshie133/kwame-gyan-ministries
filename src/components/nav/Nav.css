@@ -1,13 +1,209 @@
 /* BANNER SECTION FOR NAVIGATION */
 
-.banner-image {
+.app-container {
   background-image: url("../../assets/background-image.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 100%;
+  /* background-position: center; */
+  height: 56.75rem;
+  /* min-height: 100vh; */
+  /* display: flex;  */
+  justify-content: center;
+  color: var(--white-color);
+  align-items: center;
 }
 
+/* NAVBAR SECTION */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white-color);
+}
+
+.logo img {
+  margin-left: 5.4rem;
+  width: auto;
+}
+
+.nav-items ul {
+  list-style: none;
+  margin-right: -23rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-items li {
+  margin-left: 2.5rem;
+}
+
+.nav-items a {
+  font-size: 1.25;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: color 0.3s ease;
+}
+
+.nav-items ul a:hover {
+  color: var(--yellow-color);
+}
+
+.btn-donate {
+  margin-right: 3.3rem;
+}
+
+/*  HAMBURGER SECTION */
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none; /* Initially hide on larger screens */
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 6px auto;
+  background-color: white;
+}
+
+/*  HAMBURGER AND ICON SECTION VIEWPORT*/
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+  .logo img {
+    width: 130px;
+    margin-left: 0;
+  }
+}
+
+/* END */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; /* Show on smaller screens */
+  }
+
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding: 15px;
+    list-style: none;
+    /* Initially hide on smaller screens */
+  }
+
+  .nav-items.open {
+    display: block;
+
+    /* Show when the navigation is open */
+  }
+
+  .navbar.open .bar {
+    background-color: #ffa500; /* Change color when navigation is open */
+  }
+
+  .nav-items li {
+    margin-bottom: 10px;
+  }
+
+  .nav-items a {
+    text-decoration: none;
+  }
+
+  .btn-donate {
+    margin-right: 2rem;
+
+    /* margin-top: 0.01rem; */
+  }
+
+  .logo img {
+    width: 120px;
+    margin-left: 0;
+  }
+}
+
+/* TEXT SECTION  */
+
+main {
+  margin: 12rem auto;
+  margin-left: 7.5rem;
+  margin-top: 16rem;
+}
+
+.header__conatainer,
+.header__title {
+  color: var(--white-color);
+}
+
+.header__conatainer h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+.header__title h1 {
+  font-family: "Merriweather", serif;
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+  main {
+    margin-left: 2.5rem;
+    margin-top: 15rem;
+  }
+
+  .header__conatainer h5 {
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+
+  .header__title h1 {
+    font-family: "Merriweather", serif;
+    font-size: 4.5rem;
+  }
+}
+
+/*============= MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+  main {
+    margin-left: 0;
+    margin-top: 10rem;
+  }
+
+  .header__conatainer {
+    margin-top: 4rem;
+  }
+  .header__conatainer h5 {
+    text-align: center;
+  }
+
+  .header__title h1 {
+    text-align: center;
+    font-size: 3.2rem;
+  }
+
+  .btn-projects,
+  .btn-aboutus {
+    width: 7rem;
+    font-size: 0.8rem;
+    padding: 15px 10px;
+    display: grid;
+    flex-direction: column;
+    margin-left: 6.8rem;
+    margin-right: 6.8rem;
+  }
+}
+
+/* 
 .navbar-nav li a {
   color: var(--white-color);
 }
@@ -21,31 +217,30 @@
 
 .navbar-nav > li {
   padding-left: 6px;
-  /* padding-right: 1px; */
 }
 
 .logo {
   margin-left: 4.4rem;
-}
+} */
 
 /*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
-  .logo {
+  /* .logo {
     width: 130px;
     margin-left: 0;
-  }
+  } */
 }
 /*============= MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
-  .logo {
+  /* .logo {
     width: 120px;
     margin-left: 0;
-  }
+  } */
 }
 
 /* HEADER SECTION FOR (LET JESUS BE REVEALED) */
 
-header {
+/* header {
   margin: 12rem auto;
   margin-left: 7.5rem;
   margin-top: 17rem;
@@ -66,7 +261,7 @@ header {
   font-family: "Merriweather", serif;
   font-size: 5.6rem;
   font-weight: 700;
-}
+} */
 
 .txt-yellow {
   color: var(--yellow-color);
@@ -76,6 +271,90 @@ header {
 
 /*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
+}
+/*============= MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+}
+
+/* 
+
+
+.banner-image {
+  background-image: url("../../assets/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+
+.navbar-nav li a {
+  color: var(--white-color);
+}
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+}
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--yellow-color);
+}
+
+.navbar-nav > li {
+  padding-left: 6px;
+}
+
+.logo {
+  margin-left: 4.4rem;
+} */
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+/* @media screen and (max-width: 1024px) {
+  .logo {
+    width: 130px;
+    margin-left: 0;
+  }
+} */
+/*============= MEDIA QUERIES (SMALL DEVICES) =========== */
+/* @media screen and (max-width: 600px) {
+  .logo {
+    width: 120px;
+    margin-left: 0;
+  }
+} */
+
+/* HEADER SECTION FOR (LET JESUS BE REVEALED) */
+/* 
+header {
+  margin: 12rem auto;
+  margin-left: 7.5rem;
+  margin-top: 17rem;
+} */
+/* 
+.header__conatainer,
+.header__title {
+  color: var(--white-color);
+}
+
+.header__conatainer h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+.header__title h1 {
+  font-family: "Merriweather", serif;
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+
+.txt-yellow {
+  color: var(--yellow-color);
+} */
+
+/*  END */
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+/* @media screen and (max-width: 1024px) {
   header {
     margin-left: 2.5rem;
     margin-top: 15rem;
@@ -90,9 +369,9 @@ header {
     font-family: "Merriweather", serif;
     font-size: 4.5rem;
   }
-}
+} */
 /*============= MEDIA QUERIES (SMALL DEVICES) =========== */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   header {
     margin-left: 0;
     margin-top: 10rem;
@@ -120,6 +399,4 @@ header {
     margin-right: 6.8rem;
   }
 
-}
-
-
+} */

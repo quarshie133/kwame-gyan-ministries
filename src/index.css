@@ -22,12 +22,6 @@ html {
   display: none;
 }
 
-body {
-  /* background-image: url("../src/assets/background-image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; */
-}
-
 :root {
   --white-color: #fff;
   --black-color: #000;
