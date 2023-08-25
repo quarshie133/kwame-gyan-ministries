@@ -83,7 +83,8 @@
 /* END */
 @media (max-width: 768px) {
   .hamburger {
-    display: block; /* Show on smaller screens */
+    display: block;
+    /* Show on smaller screens */
   }
 
   .nav-items {
@@ -91,36 +92,47 @@
     flex-direction: column;
     position: absolute;
     top: 80px;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    padding: 15px;
+    left: -2.5rem;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* width: 100%; */
+    padding: 5px;
     list-style: none;
     /* Initially hide on smaller screens */
   }
 
   .nav-items.open {
-    display: block;
-
-    /* Show when the navigation is open */
+    display: flex;
   }
 
   .navbar.open .bar {
-    background-color: #ffa500; /* Change color when navigation is open */
+    background-color: #ffa500;
   }
 
   .nav-items li {
-    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+
+  .nav-items ul a{
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    flex-direction: row;
+    position: relative;
+    align-content: flex-end;
+    justify-content: flex-start;
+   
+    
+    width: 10%;
   }
 
   .nav-items a {
     text-decoration: none;
   }
+  .nav-items a:hover {
+    color: #ffa500;
+  }
 
   .btn-donate {
     margin-right: 2rem;
-
-    /* margin-top: 0.01rem; */
   }
 
   .logo img {
@@ -170,6 +182,13 @@ main {
     font-family: "Merriweather", serif;
     font-size: 4.5rem;
   }
+
+  .btn-donate {
+    width: 6rem;
+    height: 3rem;
+    font-size: 0.8rem;
+    padding: 7px;
+  }
 }
 
 /*============= MEDIA QUERIES (SMALL DEVICES) =========== */
@@ -200,6 +219,15 @@ main {
     flex-direction: column;
     margin-left: 6.8rem;
     margin-right: 6.8rem;
+  }
+
+  .btn-donate {
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    padding: 5px;
+    margin-top: 0.1rem;
+    /* margin-right: 6.8rem; */
   }
 }
 

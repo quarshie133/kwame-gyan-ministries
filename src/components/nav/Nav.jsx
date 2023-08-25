@@ -59,7 +59,7 @@ function Nav() {
             </li>
           </ul>
         </nav>
-        <button className="btn-donate ">DONATE</button>
+          <button className="btn-donate ">DONATE</button>
       </header>
       <main>
         <div className="header__conatainer">
